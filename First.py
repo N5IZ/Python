@@ -1,5 +1,5 @@
-x = float(input("please inter the number"))
-y = float(input("please the second nuumber"))
+def fen(SU):
+    print('HELLO', SU)
 
-z = round(y + x)
-print(f"{z:,}")
+x = input("enter your name")  
+fen(x)
