@@ -1,6 +1,7 @@
-x = input('Please enter the first number')
-y = input('Please enter the second number')
-if(x>y):
-    print("x is the greater")
+x = int(input("Please Enter The Grade"))
+if x >= 90 :
+    print('The Grade Is A')
+elif x >= 80 :
+    print('The grade Is B')
 else:
-    print("y is the grater")
+    print("F")
