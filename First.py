@@ -1,5 +1,6 @@
-def fen(SU):
-    print('HELLO', SU)
-
-x = input("enter your name")  
-fen(x)
+x = input('Please enter the first number')
+y = input('Please enter the second number')
+if(x>y):
+    print("x is the greater")
+else:
+    print("y is the grater")
