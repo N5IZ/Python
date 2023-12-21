@@ -1,5 +1,4 @@
-try:
-    x = int(input("Please Enter The Number"))
-    print("The Number You Enter Is ", x)
-except ValueError:
-    print("Its Not Integier")
+import random
+
+dice = random.choice(["1", "2", "3", "4", "5", "6"])
+print(dice)
