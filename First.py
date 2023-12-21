@@ -1,3 +1,5 @@
-students = ["Abebe", "Challa", "Henok"]
-for i in range(len(students)):
-    print(i+1, students[i])
+try:
+    x = int(input("Please Enter The Number"))
+    print("The Number You Enter Is ", x)
+except ValueError:
+    print("Its Not Integier")
