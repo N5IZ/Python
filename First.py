@@ -1,4 +1,3 @@
-x = 0
-for i in range(8):
-    print (x)
-    x = x + 1
+students = ["Abebe", "Challa", "Henok"]
+for i in range(len(students)):
+    print(i+1, students[i])
