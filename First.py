@@ -1,7 +1,5 @@
-x = int(input("Please Enter The Grade"))
-if x >= 90 :
-    print('The Grade Is A')
-elif x >= 80 :
-    print('The grade Is B')
+name = str(input("Please Enter Your Name "))
+if name == "John" or name == "Jack":
+    print("Hello ", name)
 else:
-    print("F")
+    print("Whats up dude")
